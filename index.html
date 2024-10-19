@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Units</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Convert Units</h1>
+        <input type="number" id="inputValue" placeholder="Enter Value">
+        <select id="fromUnit">
+            <option value="meter">meter</option>
+            <option value="kilometer">kilometer</option>
+            <option value="centimeter">centimeter</option>
+        </select>
+        <select id="toUnit">
+            <option value="meter">meter</option>
+            <option value="kilometer">kilometer</option>
+            <option value="centimeter">centimeter</option>
+        </select>
+        <button onclick="convert()">convert</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="./assets/scriptt.js"></script>
+</body>
+</html>
